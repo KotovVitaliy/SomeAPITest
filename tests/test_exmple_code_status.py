@@ -17,5 +17,9 @@ def test_404():
 
 
 def test_304():
-    r = requests.get("https://playground.learnqa.ru/api/get_301", allow_redirects=True)
-    print(r.history[1].url)
+    ololo(4, a=7)
+
+
+def ololo(b, a=4):
+    print(b)
+    print(a)
